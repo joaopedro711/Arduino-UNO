@@ -1,3 +1,6 @@
+//Sistema de bombeamento de agua, sendo um potenciomentro servindo como uma boia
+//dois buzzer passivo
+
 #include <LiquidCrystal.h> // Inclusão da biblioteca do LCD
 LiquidCrystal lcd (2, 3, 4, 5, 6, 7); // define os pinos de envio de dados do LCD
 
@@ -29,7 +32,7 @@ void loop() {
   if (nivel >= 1) { // Se o nível do reservatório for >= 1 imprime no LCD a variável nível (valor do potenciômetro)
     lcd.setCursor(7, 16);
     lcd.print(nivel);
-    lcd.print("               "); //imprime espaço em branco para limpar a coluna 2
+    lcd.print("               "); //imprime espaço em branco para limpar a linha 2
   }
 
   if ((nivel <= 200) && (nivel >= 1)) { // Se o nível do reservatório for <= a 200 "E" >= a 1, todas as bombas ligam
