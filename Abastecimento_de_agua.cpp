@@ -1,5 +1,5 @@
 //Sistema de bombeamento de agua, sendo um potenciomentro servindo como uma boia
-//dois buzzer passivo
+//dois buzzer passivo e um display LCD 
 
 #include <LiquidCrystal.h> // Inclusão da biblioteca do LCD
 LiquidCrystal lcd (2, 3, 4, 5, 6, 7); // define os pinos de envio de dados do LCD
