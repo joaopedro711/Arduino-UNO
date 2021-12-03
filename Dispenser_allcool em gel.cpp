@@ -1,4 +1,4 @@
-//Dispenser de alcool em gel altomatico
+//Dispenser de alcool em gel automatico
 
 // Inclusão de bibliotecas 
 #include "Ultrasonic.h"
